@@ -1,2 +1,2 @@
 # angular-workspace
-学习
+教程学习

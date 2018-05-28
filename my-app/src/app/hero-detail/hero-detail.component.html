@@ -1,0 +1,11 @@
+<button (click)="goBack()">返回</button>
+<div *ngIf="hero">
+    <h2>{{ hero.name | uppercase }} Details</h2>
+    <div><span>id：</span>{{ hero.id }}</div>
+    <div>
+        <label>name：
+            <input [(ngModel)]="hero.name" placeholder="name">
+        </label>
+    </div>
+</div>
+<button (click)="save()">保存</button>
